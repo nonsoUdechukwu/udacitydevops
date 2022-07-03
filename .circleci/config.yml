@@ -24,7 +24,7 @@ jobs:
        - checkout
        - run:
             name: "Print Name"
-            command: "echo "<<name>>
+            command: "echo << name >>"
     
 
 workflows:
