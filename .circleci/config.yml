@@ -85,18 +85,6 @@ jobs:
       - print_pipeline_id
 
 workflows:
-  my_workflow:
-    jobs:
-      - my_job
-
-jobs:
-  my_job:
-    docker:
-       - image: circleci/node:13.8.0
-    steps:
-      - print_pipeline_id
-
-workflows:
   my_worfflow_job:
     jobs:
       - my_job
